@@ -37,3 +37,7 @@ body {
   width:75%;
   border:2px solid black;
 }
+
+.centered {
+  text-align: center;
+}

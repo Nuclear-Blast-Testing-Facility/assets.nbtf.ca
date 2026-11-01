@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'Caacupe_One';
+    src: url(../fonts/Caacupe_One/CaacupeOne-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Idiqlat';
+    src: url(../fonts/Idiqlat/Idiqlat-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Micro_5';
+    src: url(../fonts/Micro_5_Charted/Micro5Charted-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'New_Amsterdam';
+    src: url(../fonts/New_Amsterdam/NewAmsterdam-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url(../fonts/Raleway/static/Raleway-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Redaction_100';
+    src: url(../fonts/Redaction_100/Redaction100-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Ubuntu';
+    src: url(../fonts/Ubuntu/Ubuntu-Regular.ttf);
+}
+.headerfont {
+    font-family: 'Ubuntu';
+}
+
+.linkfont {
+    font-family: 'Raleway';
+}
