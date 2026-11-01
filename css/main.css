@@ -42,6 +42,14 @@ body {
   border: 2px solid black;
 }
 
+.centeredsmallbreakline {
+  margin: 20px auto;
+  height: 2px;
+  box-sizing: border-box;
+  width: 75%;
+  border: 2px solid black;
+}
+
 .centered {
   text-align: center;
 }
