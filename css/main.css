@@ -7,7 +7,7 @@
 html, body {
   margin:0;
   padding: 0;
-  height: 100%;
+  min-height: 100%
 }
 
 body {
@@ -35,11 +35,11 @@ body {
 }
 
 .smallbreakline {
-  margin:0 auto;
-  height:2px;
+  margin: 20px auto 20px 0;
+  height: 2px;
   box-sizing: border-box;
-  width:75%;
-  border:2px solid black;
+  width: 75%;
+  border: 2px solid black;
 }
 
 .centered {
@@ -68,3 +68,8 @@ body {
 .btn-link:hover {
   background-color: #cbcbcb;
   }
+
+a.index-link {
+  display: block;
+  margin-top: 10px; /* Optional spacing above */
+}

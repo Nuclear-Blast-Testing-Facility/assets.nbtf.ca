@@ -32,10 +32,17 @@
     font-family: 'Ubuntu';
     src: url(../fonts/Ubuntu/Ubuntu-Regular.ttf);
 }
+@font-face {
+    font-family: 'Redaction_50';
+    src: url(../fonts/Redaction_50/Redaction50-Regular.ttf);
+}
 .headerfont {
     font-family: 'Ubuntu';
 }
 
 .linkfont {
     font-family: 'Raleway';
+}
+.h2font {
+    font-family:'Redaction_50'
 }
