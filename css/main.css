@@ -49,34 +49,22 @@ body {
 .nav-row {
   display: flex;
   justify-content: center;
-  gap: 0.5rem;        
-  margin: 1.5rem 0;     
+  gap: 0.5rem;
+  margin: 1.5rem 0;
   width: 100%;
 }
 
-.nav-btn {
-  background: transparent;
-  border: 2px solid transparent;
-  color: #333;
-  font-family: inherit;
-  font-size: 0.95rem;
-  font-weight: 500;
-  padding: 0.5rem 1rem;
-  cursor: pointer;
-  transition: all 0.15s ease-in-out;
-  font-family: 'Caacupe_One'
-}
+.btn-link {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #f9f9f9;
+  color: black;
+  text-decoration: none;
+  border-radius: 5px;
+  border: 2px solid #000;
+  font-family: sans-serif;
+  }
 
-.nav-btn:hover {
-  background-color: #f0f0f0;
-}
-
-.nav-btn.active {
-  border-color: #000;
-  font-weight: 700;
-}
-
-.nav-btn:focus-visible {
-  outline: 2px dashed #000;
-  outline-offset: 2px;
-}
+.btn-link:hover {
+  background-color: #cbcbcb;
+  }
