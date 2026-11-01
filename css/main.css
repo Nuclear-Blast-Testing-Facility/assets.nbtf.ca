@@ -1,5 +1,9 @@
 @import url(./root.css);
 
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
 html, body {
   margin:0;
   padding: 0;
@@ -40,4 +44,39 @@ body {
 
 .centered {
   text-align: center;
+}
+
+.nav-row {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;        
+  margin: 1.5rem 0;     
+  width: 100%;
+}
+
+.nav-btn {
+  background: transparent;
+  border: 2px solid transparent;
+  color: #333;
+  font-family: inherit;
+  font-size: 0.95rem;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  transition: all 0.15s ease-in-out;
+  font-family: 'Caacupe_One'
+}
+
+.nav-btn:hover {
+  background-color: #f0f0f0;
+}
+
+.nav-btn.active {
+  border-color: #000;
+  font-weight: 700;
+}
+
+.nav-btn:focus-visible {
+  outline: 2px dashed #000;
+  outline-offset: 2px;
 }
