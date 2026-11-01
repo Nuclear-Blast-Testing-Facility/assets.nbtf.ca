@@ -1,0 +1,39 @@
+@import url(./root.css);
+
+html, body {
+  margin:0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  display:flex;
+  justify-content: center;
+  background-color: #fff;
+}
+
+.area {
+  box-sizing: border-box;
+  height:auto;
+  width:100%;
+  max-width:600px;
+  border-left:2px solid #333;
+  border-right:2px solid #333;
+  background-color:#fff;
+  padding:40px 40px;
+}
+.breakline {
+  margin:0 auto;
+  height:2px;
+  box-sizing: border-box;
+  width:100%;
+  border:2px solid black;
+}
+
+.smallbreakline {
+  margin:0 auto;
+  height:2px;
+  box-sizing: border-box;
+  width:75%;
+  border:2px solid black;
+}
