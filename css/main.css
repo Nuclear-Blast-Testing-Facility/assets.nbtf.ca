@@ -26,6 +26,10 @@ body {
   background-color:#fff;
   padding:40px 40px;
 }
+
+.area-bottom {
+  border-bottom:2px solid #333
+}
 .breakline {
   margin:0 auto;
   height:2px;
