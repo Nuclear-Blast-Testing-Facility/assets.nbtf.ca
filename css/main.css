@@ -27,6 +27,14 @@ body {
   padding:40px 40px;
 }
 
+.image-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: fit-content;
+  margin-inline: auto; 
+}
+
 .area-bottom {
   border-bottom:2px solid #333
 }
