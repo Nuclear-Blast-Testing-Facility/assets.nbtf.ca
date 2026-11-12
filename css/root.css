@@ -46,3 +46,14 @@
 .h2font {
     font-family:'Redaction_50'
 }
+/** Inspired by wiki.nbtf.ca title text **/
+.specialfont {
+    margin-top: 0;
+    font-size: 44px;
+    font-family: 'Segoe UI', sans-serif; 
+    font-weight: 900;
+    color: #f7dc6f;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.95);
+}
